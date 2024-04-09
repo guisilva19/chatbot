@@ -21,9 +21,12 @@ export default function Chat() {
           <h1 className="font-bold text-3xl">Chat AI</h1>
           <p className="text-slate-500">Use the chatbot for free</p>
         </CardHeader>
-        <CardBody className="overflow-visible py-2 px-4">
+        <CardBody className="py-2 px-4 gap-2 overflow-chat">
           {messages.map((message) => (
-            <div key={message.id} className="flex gap-1 text-slate-600 text-sm">
+            <div
+              key={message.id}
+              className="flex gap-1 text-slate-600 text-sm border-b border-slate-300 py-2"
+            >
               <div className="w-2/12">
                 {message.role === "user" ? (
                   <Avatar

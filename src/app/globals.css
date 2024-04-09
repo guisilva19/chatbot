@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    .overflow-chat {
+        overflow-y: auto;
+    }
+    .overflow-chat::-webkit-scrollbar {
+        width: 0px;
+    }
+  }
