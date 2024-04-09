@@ -1,33 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a target="blank"><img src="https://i.ibb.co/DCZH8Ht/chatbot.png" width="128" alt="Chatbot" /></a>
+</p>
 
-## Getting Started
+## Introdução
 
-First, run the development server:
+Este chatbot utiliza tecnologias avançadas para oferecer uma experiência de conversação inteligente e natural. Através da integração com a API da OpenAI, garantindo interações mais humanizadas e relevantes. Além disso, nossa integração com a Vercel SDK AI nos permite enriquecer ainda mais a interação com funcionalidades específicas, tornando nosso chatbot mais inteligente e capaz de compreender melhor as necessidades dos usuários.
+
+## Funcionalidades
+
+- **Integração com OpenAI:** Utiliza a API da OpenAI para proporcionar recursos avançados de processamento de linguagem natural.
+- **Integração com Vercel SDK AI:** Implementa funcionalidades específicas da Vercel SDK AI para enriquecer a interação e a inteligência do chatbot.
+
+## Instalação
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running the app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# development
+$ yarn dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
 
 ## Deploy on Vercel
 
